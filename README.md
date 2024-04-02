@@ -62,18 +62,20 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+**PROGRAM**M module
+LOGICGATES(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate); input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate; and(andgate,a,b);
+or(orgate,a,b); not(notgate,a); nand(nandgate,a,b); nor(norgate,a,b); xor(xorgate,a,b);
+xnor(xnorgate,a,b); endmodule Program for logic gates and verify its truth table in quartus
+using Verilog programming
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: R.Sheetal (212223230206) 
  
-**Logic symbol & Truthtable**
+**OUTPUT**
 
-**RTL realization Output:** 
+![image](https://github.com/Sheetalshee/study-of-basic-gates/assets/144979107/2a108824-b07d-4080-8d9f-cff05718af94)
 
-**RTL**
 
-**Result:**
+**Result:** Thus the study and verify the truth table of logic gates in Quartus II using Verilog program is successfully completed.
 
 
